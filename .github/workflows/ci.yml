@@ -10,4 +10,7 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         exclude:
           # see https://github.com/actions/setup-python/issues/850
-          - o
+          - os: macos-latest
+            python-version: 3.7
+          - os: macos-latest
+ 
