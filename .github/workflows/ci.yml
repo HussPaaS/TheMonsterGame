@@ -23,4 +23,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Run image
-        uses: abati
+        uses: abatilo/actions-poetry@v2
+        with:
+          poetry-version: "1.5.1"
+     
