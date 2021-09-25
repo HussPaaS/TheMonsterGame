@@ -28,4 +28,6 @@ jobs:
           poetry-version: "1.5.1"
       - name: Install dependencies
         run: poetry install
-      - name: Static t
+      - name: Static type checking
+        run: poetry run mypy .
+        if: runner.os !=
