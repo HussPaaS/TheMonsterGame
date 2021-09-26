@@ -30,4 +30,6 @@ jobs:
         run: poetry install
       - name: Static type checking
         run: poetry run mypy .
-        if: runner.os !=
+        if: runner.os != 'Windows'
+      - name: Run test
+        run: poetry run pytest
