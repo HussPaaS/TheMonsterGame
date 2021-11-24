@@ -8,4 +8,6 @@ test:
 	poetry run mypy .
 	poetry run pytest
 
-.PH
+.PHONY=clean
+clean:
+	rm -fr build dist pick.egg-info
