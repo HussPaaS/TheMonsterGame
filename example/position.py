@@ -7,4 +7,5 @@ def main(stdscr):
 
     y, x = stdscr.getyx()
     
-    title = "Please 
+    title = "Please choose your favorite programming language: "
+    options = ["Java", "JavaScript", 
