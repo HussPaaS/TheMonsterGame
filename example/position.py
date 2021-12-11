@@ -8,4 +8,6 @@ def main(stdscr):
     y, x = stdscr.getyx()
     
     title = "Please choose your favorite programming language: "
-    options = ["Java", "JavaScript", 
+    options = ["Java", "JavaScript", "Python", "PHP", "C++", "Erlang", "Haskell"]
+    option, index = pick.pick(
+ 
