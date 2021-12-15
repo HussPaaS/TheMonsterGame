@@ -15,4 +15,7 @@ def main(stdscr):
         indicator="=>",
         default_index=2,
         screen=stdscr,
-        position=pick.Position(y=y, x=0)  # comment this
+        position=pick.Position(y=y, x=0)  # comment this to demonstrate the issue it solves
+    )
+
+    stdscr.addstr(f"\nYo
