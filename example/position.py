@@ -18,4 +18,7 @@ def main(stdscr):
         position=pick.Position(y=y, x=0)  # comment this to demonstrate the issue it solves
     )
 
-    stdscr.addstr(f"\nYo
+    stdscr.addstr(f"\nYou chose {option} at index {index}\n")
+    stdscr.get_wch()
+
+curses.w
