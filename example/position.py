@@ -21,4 +21,4 @@ def main(stdscr):
     stdscr.addstr(f"\nYou chose {option} at index {index}\n")
     stdscr.get_wch()
 
-curses.w
+curses.wrapper(main)
