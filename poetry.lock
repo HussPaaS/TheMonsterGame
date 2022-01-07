@@ -3,4 +3,4 @@
 [[package]]
 name = "cfgv"
 version = "3.3.1"
-descripti
+description = "Validate configuration and produce human readable error mess
