@@ -3,4 +3,8 @@
 [[package]]
 name = "cfgv"
 version = "3.3.1"
-description = "Validate configuration and produce human readable error mess
+description = "Validate configuration and produce human readable error messages."
+optional = false
+python-versions = ">=3.6.1"
+files = [
+    {file = "cfgv-
