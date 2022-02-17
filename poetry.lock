@@ -7,4 +7,4 @@ description = "Validate configuration and produce human readable error messages.
 optional = false
 python-versions = ">=3.6.1"
 files = [
-    {file = "cfgv-
+    {file = "cfgv-3.3.1-py2.py3-none-any.whl", hash = "sha256:c6a0883f3917a037485059700b9e75da24
