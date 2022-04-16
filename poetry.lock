@@ -33,4 +33,7 @@ files = [
     {file = "distlib-0.3.5.tar.gz", hash = "sha256:a7f75737c70be3b25e2bee06288cec4e4c221de18455b2dd037fe2a795cab2fe"},
 ]
 
-[[pa
+[[package]]
+name = "exceptiongroup"
+version = "1.2.0"
+description = 
