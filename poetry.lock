@@ -48,4 +48,6 @@ files = [
 test = ["pytest (>=6)"]
 
 [[package]]
-name = "file
+name = "filelock"
+version = "3.7.1"
+description = "A platform independent file 
