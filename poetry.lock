@@ -50,4 +50,8 @@ test = ["pytest (>=6)"]
 [[package]]
 name = "filelock"
 version = "3.7.1"
-description = "A platform independent file 
+description = "A platform independent file lock."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "file
