@@ -54,4 +54,4 @@ description = "A platform independent file lock."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "file
+    {file = "filelock-3.7.1-py3-none-any.whl", hash = "sha256:37def7b658813cda163b56fc564cd
