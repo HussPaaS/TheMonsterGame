@@ -59,4 +59,5 @@ files = [
 ]
 
 [package.extras]
-docs = ["furo (>=2021.8.17b43)", "sphi
+docs = ["furo (>=2021.8.17b43)", "sphinx (>=4.1)", "sphinx-autodoc-typehints (>=1.12)"]
+testing = ["co
