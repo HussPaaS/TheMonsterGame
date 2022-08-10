@@ -67,4 +67,6 @@ name = "identify"
 version = "2.5.2"
 description = "File identification library for Python"
 optional = false
-python-versions = ">=3.
+python-versions = ">=3.7"
+files = [
+    {file = "identify-2.5.2-py2.py3-none-any.whl", hash = "sha256:feaa9db2dc0
