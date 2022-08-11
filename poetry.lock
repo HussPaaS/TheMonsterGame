@@ -77,4 +77,6 @@ files = [
 license = ["ukkonen"]
 
 [[package]]
-name =
+name = "importlib-metadata"
+version = "4.8.3"
+description = "Read metadata from Python pack
