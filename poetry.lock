@@ -88,4 +88,8 @@ files = [
 ]
 
 [package.dependencies]
-typing-extensions = {version = ">=3.
+typing-extensions = {version = ">=3.6.4", markers = "python_version < \"3.8\""}
+zipp = ">=0.5"
+
+[package.extras]
+docs = 
