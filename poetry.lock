@@ -110,4 +110,8 @@ files = [
 [[package]]
 name = "mypy"
 version = "1.4.1"
-description = "Optional st
+description = "Optional static typing for Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file
