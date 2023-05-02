@@ -168,4 +168,6 @@ files = [
 [[package]]
 name = "nodeenv"
 version = "1.7.0"
-de
+description = "Node.js virtual environment builder"
+optional = false
+python-versions = ">=
