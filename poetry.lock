@@ -182,4 +182,6 @@ setuptools = "*"
 [[package]]
 name = "packaging"
 version = "21.3"
-description = "Core 
+description = "Core utilities for Python packages"
+optional = false
+python-versions = ">=3
