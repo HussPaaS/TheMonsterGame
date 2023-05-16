@@ -184,4 +184,6 @@ name = "packaging"
 version = "21.3"
 description = "Core utilities for Python packages"
 optional = false
-python-versions = ">=3
+python-versions = ">=3.6"
+files = [
+    {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103
