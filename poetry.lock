@@ -191,4 +191,8 @@ files = [
 ]
 
 [package.dependencies]
-pypar
+pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
+
+[[package]]
+name = "platformdirs"
+ve
