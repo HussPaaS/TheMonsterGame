@@ -198,4 +198,6 @@ name = "platformdirs"
 version = "2.5.2"
 description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
 optional = false
-python-versions 
+python-versions = ">=3.7"
+files = [
+    {file = "platformdirs-2.5.2-py3-none-
