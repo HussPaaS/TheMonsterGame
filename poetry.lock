@@ -195,4 +195,5 @@ pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
 [[package]]
 name = "platformdirs"
-ve
+version = "2.5.2"
+description = "A small Python module for determining appropriate platfo
