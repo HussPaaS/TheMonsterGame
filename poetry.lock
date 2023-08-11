@@ -215,4 +215,4 @@ description = "plugin and hook calling mechanisms for python"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "pluggy-1.0
+    {file = "pluggy-1.0.0-py2.py3-none-any.whl", hash = "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0b
