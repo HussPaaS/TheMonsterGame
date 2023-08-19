@@ -228,4 +228,5 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pre-commit"
-version = "2.20.
+version = "2.20.0"
+description = "A framework for managing and maintaining multi-language pre-com
