@@ -233,4 +233,4 @@ description = "A framework for managing and maintaining multi-language pre-commi
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file 
+    {file = "pre_commit-2.20.0-py2.py3-none-any.whl", hash = "sha256:51a5
