@@ -238,4 +238,6 @@ files = [
 ]
 
 [package.dependencies]
-cfgv = ">=2
+cfgv = ">=2.0.0"
+identify = ">=1.0.0"
+importlib-metadata = {version = "*", markers
