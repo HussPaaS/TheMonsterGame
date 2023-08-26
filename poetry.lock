@@ -240,4 +240,6 @@ files = [
 [package.dependencies]
 cfgv = ">=2.0.0"
 identify = ">=1.0.0"
-importlib-metadata = {version = "*", markers
+importlib-metadata = {version = "*", markers = "python_version < \"3.8\""}
+nodeenv = ">=0.11.1"
+pyyaml = ">=5.1
