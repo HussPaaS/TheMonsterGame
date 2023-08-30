@@ -252,4 +252,5 @@ version = "3.0.7"
 description = "Python parsing module"
 optional = false
 python-versions = ">=3.6"
-files
+files = [
+    {file = "pyparsing-3.0.7-py3-none-any.whl", hash = "sha256:a6c06a88f252e6
