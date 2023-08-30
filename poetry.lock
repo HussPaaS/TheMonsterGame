@@ -248,4 +248,8 @@ virtualenv = ">=20.0.8"
 
 [[package]]
 name = "pyparsing"
-version = "3.
+version = "3.0.7"
+description = "Python parsing module"
+optional = false
+python-versions = ">=3.6"
+files
