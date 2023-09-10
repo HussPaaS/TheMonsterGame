@@ -263,4 +263,7 @@ diagrams = ["jinja2", "railroad-diagrams"]
 [[package]]
 name = "pytest"
 version = "7.4.4"
-description = "pytest: simpl
+description = "pytest: simple powerful testing with Python"
+optional = false
+python-versions = ">=3.7"
+fil
