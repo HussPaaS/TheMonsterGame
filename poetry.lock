@@ -272,4 +272,5 @@ files = [
 ]
 
 [package.dependencies]
-colorama = {version 
+colorama = {version = "*", markers = "sys_platform == \"win32\""}
+exceptiongroup = {version
