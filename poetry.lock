@@ -285,4 +285,7 @@ testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "no
 
 [[package]]
 name = "pyyaml"
-version = "6.0
+version = "6.0.1"
+description = "YAML parser and emitter for Python"
+optional = false
+pyt
