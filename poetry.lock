@@ -348,4 +348,6 @@ name = "setuptools"
 version = "68.0.0"
 description = "Easily download, build, install, upgrade, and uninstall Python packages"
 optional = false
-python-versi
+python-versions = ">=3.7"
+files = [
+    {file = "setuptools-68.0.0-py3-none-
