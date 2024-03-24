@@ -346,4 +346,6 @@ files = [
 [[package]]
 name = "setuptools"
 version = "68.0.0"
-description = "Easily download, b
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+optional = false
+python-versi
