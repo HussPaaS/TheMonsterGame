@@ -361,4 +361,6 @@ testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (
 
 [[package]]
 name = "six"
-version = "1.16
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+optional 
