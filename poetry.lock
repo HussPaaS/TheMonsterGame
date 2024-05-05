@@ -386,4 +386,6 @@ name = "tomli"
 version = "1.2.3"
 description = "A lil' TOML parser"
 optional = false
-python-versions = "
+python-versions = ">=3.6"
+files = [
+    {file = "tomli-1.2.3-py3-none-any.whl", hash = "sha
