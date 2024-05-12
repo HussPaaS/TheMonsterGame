@@ -395,4 +395,4 @@ files = [
 [[package]]
 name = "typed-ast"
 version = "1.5.4"
-descriptio
+description = "a fork of Python 2 and 3 ast modules with type comment support"
