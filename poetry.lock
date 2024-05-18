@@ -399,4 +399,4 @@ description = "a fork of Python 2 and 3 ast modules with type comment support"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "typed_ast-1.5.4
+    {file = "typed_ast-1.5.4-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:669dd0c4167f6f2cd9f570
