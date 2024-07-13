@@ -428,4 +428,4 @@ files = [
 [[package]]
 name = "typing-extensions"
 version = "4.1.1"
-description 
+description = "Backported and Experimental Type Hints for Python 3.6+"
