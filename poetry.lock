@@ -441,4 +441,6 @@ name = "virtualenv"
 version = "20.15.1"
 description = "Virtual Python Environment builder"
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+files = [
+    {file = "virtualenv-20.15.1-
