@@ -461,4 +461,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [[package]]
 name = "windows-curses"
 version = "2.4.0"
-description = "Support for th
+description = "Support for the standard curses module on Windows"
+optional = false
+python-versions = "*"
+files =
