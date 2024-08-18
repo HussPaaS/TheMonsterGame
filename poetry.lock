@@ -464,4 +464,5 @@ version = "2.4.0"
 description = "Support for the standard curses module on Windows"
 optional = false
 python-versions = "*"
-files =
+files = [
+    {file = "windows_curses-2.4.0-cp310-cp310-win32.whl", hash = "sha256:525fa12
