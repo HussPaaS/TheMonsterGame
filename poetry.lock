@@ -465,4 +465,4 @@ description = "Support for the standard curses module on Windows"
 optional = false
 python-versions = "*"
 files = [
-    {file = "windows_curses-2.4.0-cp310-cp310-win32.whl", hash = "sha256:525fa12
+    {file = "windows_curses-2.4.0-cp310-cp310-win32.whl", hash = "sha256:525fa12689aa54cd8e4cfa6d03f3d4d336f2e9ef0b6db4fdb4d3c1b22a7118
