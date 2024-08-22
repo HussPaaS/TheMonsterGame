@@ -467,4 +467,4 @@ python-versions = "*"
 files = [
     {file = "windows_curses-2.4.0-cp310-cp310-win32.whl", hash = "sha256:525fa12689aa54cd8e4cfa6d03f3d4d336f2e9ef0b6db4fdb4d3c1b22a71180b"},
     {file = "windows_curses-2.4.0-cp310-cp310-win_amd64.whl", hash = "sha256:4621042a28f48e2240314a624eb36f18121483d47f12c488cad9670f402ba6d7"},
-    
+    {file = "windows_curses-2.4.0-cp311-cp311-win32.whl", hash = "sha256:90fde3341b236
