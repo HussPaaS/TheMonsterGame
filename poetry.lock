@@ -478,4 +478,4 @@ files = [
     {file = "windows_curses-2.4.0-cp38-cp38-win32.whl", hash = "sha256:342b786c82fda5f9592593b2f8f4078de40b31baaf331be57af4c3c9a2e40061"},
     {file = "windows_curses-2.4.0-cp38-cp38-win_amd64.whl", hash = "sha256:c77973c5af419c3d9bcb99908dc9791102813026d6abdda9236e44d9342c9579"},
     {file = "windows_curses-2.4.0-cp39-cp39-win32.whl", hash = "sha256:6f481322360dbcdfa37b30654c89aa2920f4528eaefec3a50fa6a6d07be49069"},
-   
+    {file = "windows_curses-2.4.0-cp39-cp39-win_amd64.whl", hash = "sha256:441189fb71c
