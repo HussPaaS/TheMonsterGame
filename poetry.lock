@@ -486,4 +486,6 @@ name = "zipp"
 version = "3.15.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
 optional = false
-python-v
+python-versions = ">=3.7"
+files = [
+    {file = "zipp-3.15.0-py3-none-any.whl
