@@ -232,3 +232,26 @@ class Picker(Generic[OPTION_T]):
 
 def pick(
     options: Sequence[OPTION_T],
+    title: Optional[str] = None,
+    indicator: str = "*",
+    default_index: int = 0,
+    multiselect: bool = False,
+    min_selection_count: int = 0,
+    screen: Optional["curses._CursesWindow"] = None,
+    position: Position = Position(0, 0),
+    clear_screen: bool = True,
+    quit_keys: Optional[Union[Container[int], Iterable[int]]] = None,
+):
+    picker: Picker = Picker(
+        options,
+        title,
+        indicator,
+        default_index,
+        multiselect,
+        min_selection_count,
+        screen,
+        position,
+        clear_screen,
+        quit_keys,
+    )
+    return picker.start()
