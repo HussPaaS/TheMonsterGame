@@ -154,3 +154,81 @@ class Picker(Generic[OPTION_T]):
             scroll_top = current_line - max_rows
 
         lines_to_draw = lines[scroll_top : scroll_top + max_rows]
+
+        description_present = False
+        for option in self.options:
+            if isinstance(option, Option) and option.description is not None:
+                description_present = True
+                break
+
+        title_length = len(self.get_title_lines(max_width=max_x))
+
+        for i, line in enumerate(lines_to_draw):
+            if description_present and i > title_length:
+                screen.addnstr(y, x, line, max_x // 2 - 2)
+            else:
+                screen.addnstr(y, x, line, max_x - 2)
+            y += 1
+
+        option = self.options[self.index]
+        if isinstance(option, Option) and option.description is not None:
+            description_lines = textwrap.fill(option.description, max_x // 2 - 2).split('\n')
+
+            for i, line in enumerate(description_lines):
+                screen.addnstr(i + title_length, max_x // 2, line, max_x - 2)
+
+        screen.refresh()
+
+    def run_loop(
+        self, screen: "curses._CursesWindow", position: Position
+    ) -> Union[List[PICK_RETURN_T], PICK_RETURN_T]:
+        while True:
+            self.draw(screen)
+            c = screen.getch()
+            if self.quit_keys is not None and c in self.quit_keys:
+                if self.multiselect:
+                    return []
+                else:
+                    return None, -1
+            elif c in KEYS_UP:
+                self.move_up()
+            elif c in KEYS_DOWN:
+                self.move_down()
+            elif c in KEYS_ENTER:
+                if (
+                    self.multiselect
+                    and len(self.selected_indexes) < self.min_selection_count
+                ):
+                    continue
+                return self.get_selected()
+            elif c in KEYS_SELECT and self.multiselect:
+                self.mark_index()
+
+    def config_curses(self) -> None:
+        try:
+            # use the default colors of the terminal
+            curses.use_default_colors()
+            # hide the cursor
+            curses.curs_set(0)
+        except:
+            # Curses failed to initialize color support, eg. when TERM=vt100
+            curses.initscr()
+
+    def _start(self, screen: "curses._CursesWindow"):
+        self.config_curses()
+        return self.run_loop(screen, self.position)
+
+    def start(self):
+        if self.screen:
+            # Given an existing screen
+            # don't make any lasting changes
+            last_cur = curses.curs_set(0)
+            ret = self.run_loop(self.screen, self.position)
+            if last_cur:
+                curses.curs_set(last_cur)
+            return ret
+        return curses.wrapper(self._start)
+
+
+def pick(
+    options: Sequence[OPTION_T],
